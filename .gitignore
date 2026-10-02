@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project
+out/
+*.mp4
+
+# VTUAV-style RGB-T sequences (<name>_<nnn>/rgb, /ir, rgb.txt, ir.txt), wherever they sit
+test_LT_*/
+car_*/
+bus_*/
+truck_*/
+pedestrian_*/
+bike_*/
+animal_*/
+boat_*/
+train_*/
+.vscode/
