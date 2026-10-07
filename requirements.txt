@@ -1,0 +1,5 @@
+numpy
+opencv-contrib-python-headless
+matplotlib
+dtcwt
+ipykernel
