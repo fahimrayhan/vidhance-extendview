@@ -31,5 +31,3 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
 Open a notebook with the `.venv` kernel, set `SOURCE` to a folder name in `data/`, run all cells.
-
-`fusion/rfn_nest.ipynb` is the exception: it runs on Google Colab and uses its own `/content` paths.
