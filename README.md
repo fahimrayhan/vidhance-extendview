@@ -3,12 +3,16 @@
 Experiments in dehazing and infrared/visible fusion.
 
 ```
-fusion/            infrared + visible fusion pipelines
-  data/            inputs
-  out/             outputs
-dehazing/          dehazing pipelines
+fusion/                  infrared + visible fusion pipelines
+  methods/               one notebook per method
+  data/                  inputs
+  out/                   outputs
+  FUSION_EVALUATION.py   evaluates what is in out/
+dehazing/                dehazing pipelines
+  methods/
   data/
   out/
+  DEHAZING_EVALUATION.py
 ```
 
 ## Inputs
@@ -30,4 +34,5 @@ separately for each modality.
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
-Open a notebook with the `.venv` kernel, set `SOURCE` to a folder name in `data/`, run all cells.
+Open a notebook in `methods/` with the `.venv` kernel, set `SOURCE` to a folder name in `data/`, run all cells.
+Then `python FUSION_EVALUATION.py` (or `DEHAZING_EVALUATION.py`) scores what is in `out/`.
