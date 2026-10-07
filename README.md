@@ -1,11 +1,11 @@
 # vidhance-extendview
 
-Experiments in dehazing and infrared/visible fusion. One notebook per method.
+Experiments in dehazing and infrared/visible fusion.
 
 ```
 fusion/            infrared + visible fusion pipelines
-  data/            inputs   (not in git)
-  out/             outputs  (not in git)
+  data/            inputs
+  out/             outputs
 dehazing/          dehazing pipelines
   data/
   out/
