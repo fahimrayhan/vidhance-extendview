@@ -219,6 +219,16 @@ __marimo__/
 
 # project
 **/data/*
-!/fusion/data/car_008/
 out/
 .vscode/
+
+# media anywhere, except the committed sample
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+!/fusion/data/car_008/
+!/fusion/data/car_008/**
