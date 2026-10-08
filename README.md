@@ -7,12 +7,13 @@ fusion/                  infrared + visible fusion pipelines
   methods/               one notebook per method
   data/                  inputs
   out/                   outputs
-  FUSION_EVALUATION.py   evaluates what is in out/
+  models/                tracker weights used by the evaluation
+  FUSION_EVALUATION.ipynb   evaluates what is in out/
 dehazing/                dehazing pipelines
   methods/
   data/
   out/
-  DEHAZING_EVALUATION.py
+  DEHAZING_EVALUATION.ipynb
 ```
 
 ## Inputs
@@ -35,4 +36,4 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 ```
 
 Open a notebook in `methods/` with the `.venv` kernel, set `SOURCE` to a folder name in `data/`, run all cells.
-Then `python FUSION_EVALUATION.py` (or `DEHAZING_EVALUATION.py`) scores what is in `out/`.
+Then run `FUSION_EVALUATION.ipynb` (or `DEHAZING_EVALUATION.ipynb`) to score what is in `out/`.
