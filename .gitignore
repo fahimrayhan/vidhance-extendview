@@ -232,3 +232,4 @@ out/
 *.jpeg
 !/fusion/data/car_008/
 !/fusion/data/car_008/**
+.DS_Store

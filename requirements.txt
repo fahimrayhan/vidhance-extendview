@@ -25,6 +25,7 @@ kornia
 sewar
 torchmetrics
 lpips
+pyiqa
 
 # plotting
 matplotlib
