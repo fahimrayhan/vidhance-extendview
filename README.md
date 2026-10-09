@@ -12,6 +12,7 @@ dehazing/                dehazing pipelines
   methods/
   data/
   out/
+  evaluation/            image metircs
   DEHAZING_EVALUATION.py
 ```
 
