@@ -13,6 +13,7 @@ dehazing/                dehazing pipelines
   methods/
   data/
   out/
+  evaluation/            image metrics
   DEHAZING_EVALUATION.ipynb
 ```
 
