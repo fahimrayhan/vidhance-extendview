@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project
+**/data/*
+out/
+.vscode/
+
+# media anywhere, except the committed sample
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.png
+*.jpg
+*.jpeg
+!/fusion/data/car_008/
+!/fusion/data/car_008/**
+.DS_Store

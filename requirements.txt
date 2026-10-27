@@ -1,0 +1,39 @@
+# core
+numpy
+scipy
+pandas
+tqdm
+
+# images and video
+opencv-contrib-python-headless
+scikit-image
+pillow
+imageio
+imageio-ffmpeg
+av
+
+# classical fusion / dehazing building blocks
+dtcwt
+PyWavelets
+
+# deep learning
+torch
+torchvision
+kornia
+
+# quality metrics
+sewar
+torchmetrics
+lpips
+pyiqa
+
+# plotting
+matplotlib
+seaborn
+
+# notebooks
+jupyter
+ipykernel
+ipywidgets
+nbformat
+nbclient
