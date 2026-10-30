@@ -233,3 +233,6 @@ out/
 !/fusion/data/car_008/
 !/fusion/data/car_008/**
 .DS_Store
+!/fusion/data/car_008_haze_50/
+!/fusion/data/car_008_haze_50/**
+!/fusion/data/add_haze.py
