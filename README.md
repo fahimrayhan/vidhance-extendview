@@ -5,6 +5,7 @@ Experiments in dehazing and infrared/visible fusion.
 ```
 fusion/                  infrared + visible fusion pipelines
   methods/               one notebook per method
+    transformers/        transformer-based fusion: SwinFusion, CMTFusion, CrossFuse, DATFuse, ITFuse
   data/                  inputs
   out/                   outputs
   models/                tracker weights used by the evaluation
